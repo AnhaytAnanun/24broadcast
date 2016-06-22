@@ -11,6 +11,7 @@ bool print(int m, int v2, int v3, int v4, int v5, int v6,
         int v23, int v24, int v25, int v33, int v34, int v35, 
         int v44, int v45, int v55)
 {
+//    if (v2 + v3 + v4 + v5 != 24) return true;
     static int c=0;
     out << v2 << "\t" << v3 << "\t" << v4 << "\t" << v5 << "\t" << v6 << "\t";
     out << v23 << "\t" << v24 << "\t" << v25 << "\t" << v33 << "\t" << v34 << "\t" << v35 << "\t" << v44 << "\t" << v45 << "\t" << v55 << "\n";
